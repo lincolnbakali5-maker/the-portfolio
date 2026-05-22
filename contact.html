@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Lincoln's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <div class="logo">Lincoln</div>
+            <div>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section>
+        <h1>Get In Touch</h1>
+        <p>Have a question or want to work together? I'd love to hear from you!</p>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section>
+        <h2>Contact Information</h2>
+        <div style="max-width: 600px; margin: 30px auto; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+                <h3 style="color: #ff6b35; margin-bottom: 10px;">📧 Email</h3>
+                <p><a href="mailto:lincoln@email.com" style="color: #ff6b35; text-decoration: none;">lincoln@email.com</a></p>
+            </div>
+            <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+                <h3 style="color: #ff6b35; margin-bottom: 10px;">📱 Phone</h3>
+                <p><a href="tel:+263773000000" style="color: #ff6b35; text-decoration: none;">+263 773 000 000</a></p>
+            </div>
+            <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+                <h3 style="color: #ff6b35; margin-bottom: 10px;">📍 Location</h3>
+                <p>Harare, Zimbabwe</p>
+            </div>
+            <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+                <h3 style="color: #ff6b35; margin-bottom: 10px;">⏰ Availability</h3>
+                <p>Monday - Friday, 9AM - 5PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section>
+        <h2>Send me a Message</h2>
+        <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+        
+        <form>
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Your Email *</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label for="phone">Phone Number (Optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" required placeholder="What is this about?">
+
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required placeholder="Tell me more about your message..."></textarea>
+
+            <button type="submit">Send Message</button>
+            <button type="reset" style="background-color: #666;">Clear Form</button>
+        </form>
+    </section>
+
+    <!-- Social Media Links Section -->
+    <section>
+        <h2>Connect With Me</h2>
+        <p>Follow me on social media for updates and behind-the-scenes content</p>
+        <div style="margin: 30px 0;">
+            <button style="background-color: #1877f2; margin: 10px 5px;" onclick="alert('LinkedIn profile coming soon!')">LinkedIn</button>
+            <button style="background-color: #000; margin: 10px 5px;" onclick="alert('GitHub profile coming soon!')">GitHub</button>
+            <button style="background-color: #e4405f; margin: 10px 5px;" onclick="alert('Instagram profile coming soon!')">Instagram</button>
+            <button style="background-color: #0a66c2; margin: 10px 5px;" onclick="alert('Twitter profile coming soon!')">Twitter</button>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section>
+        <h2>Other Ways to Connect</h2>
+        <button onclick="document.location='home.html'" style="background-color: #666;">Back to Home</button>
+        <button onclick="document.location='about.html'" style="background-color: #666;">View My Work</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Lincoln's Portfolio. All rights reserved.</p>
+        <p>I look forward to hearing from you!</p>
+    </footer>
+</body>
+</html>

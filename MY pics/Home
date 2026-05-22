@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - Lincoln Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d6f0ff;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #87CEEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.hero p {
+    font-style: italic;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+/* IMAGE */
+.hero img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* BUTTON */
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #87CEEB;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo">Lincoln</div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Hello, Welcome to My Portfolio</h1>
+
+    <p>
+        I am Lincoln Bakali, a web developer passionate about building
+        clean and modern websites using HTML and CSS.
+        Creating websiites it is my proffession and aiming to maet morden
+         World and demand 
+    </p>
+
+    <!-- Replace with your image -->
+    <img src="your-image.jpg" alt="Profile Image">
+
+    <br>
+
+    <button>Tap here</button>
+</section>
+
+</body>
+</html>
